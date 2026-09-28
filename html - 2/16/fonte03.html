@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Makcasa';
+            src: url('Fonts/Makcasa-Regular.otf') format('opentype'), url('Fonts/Makcasa-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*
+            Tipos de format()
+            opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+        */
+
+
+        body {
+            font-family: 'Makcasa', cursive, sans-serif;
+            font-size: 1em;
+        }
+        h1 {
+            font-family: 'Makcasa', cursive, sans-serif;
+            font-size: 3em;
+        }
+        h2 {
+            font-family: 'Makcasa', cursive, sans-serif;
+            font-size: 2em;
+        }
+        /*
+         Medidas Absolutas 
+        cm, mm, in, px, pt, pc
+
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente = 1em 
+        */
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <h2>Subtitulo disso aqui</h2>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</body>
+</html>

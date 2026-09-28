@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(61, 61, 61);
+  margin: 0;
+}
+
+body>header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(128, 180, 248);
+  padding: 5px;
+}
+
+main {
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main > section#Lucki{
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 930px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px 0px;
+  flex-wrap: nowrap;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+}
+
+div#divisor{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main > section#Kya{
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 930px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px 0px;
+  flex-wrap: nowrap;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+}
+
+footer {
+  text-align: center;
+  padding: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}

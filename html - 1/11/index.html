@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="patricio.ico" type="image/png">
+    <title>mída k7</title>
+</head>
+<body>
+    <h1> VAI SER UMA IMAGEM, SÓQ EU DINÂMICA </h1>
+    <p>Vou colocar uma imagem aqui, só que ela vai ser dinamica, ou seja, ela vai mudar de acordo com o tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="IMAGEM-FDS/foto-P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="IMAGEM-FDS/foto-m.png" type="image/png">
+        <img src="IMAGEM-FDS/foto-g.png" alt="imagem flexivel G" style="width:100%; max-width:1000px;">
+    </picture><br>
+    <P> Quebramos a cabeça para fazer essa bosta, chegamos na conclusão de nunca usar espaços no nome dos arquivos e nem nas pastas, que foi o que mais afetou a gente.<br>pqp tu é muito jumento, porque uma coisa dssa devia ser óbvia.</P>
+
+    <h1> AH VELHO, AGORA TEM QUE COLOCAR AUDIO AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+    <audio controls>
+        <source src="audio/ChaosControl.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <p> IZ <br> orra, comparado a imagem dinamica isso aqui foi uma pulga num pote de vrido.</p>
+    <p> Tem outro modo de colocar audio, em varios formatos de maneira (que eu achei) rapida, é abrir a tag audio e colocar as tags source dentro dela, cada uma com um formato diferente, assim o navegador vai escolher o formato que ele suporta. A tag source tem outra src dentro; vc muda o type de acoro com o tipo do arquivo e a ordem pela prioridade. <br> Existe mais comandos alem do "controls", a exemplo do autoplay; preload (que é para definir se deve pré carrgar, esperar o usuário carregar ou não carregar); e o loop.</p>
+    <h1> VAI SER UM VIDEO, SÓQ EU DINÂMICO </h1>
+    <video width="560" poster="video/CAPA-DO-VIDEO.png" controls>
+        <source src="video/Mine-Video-Teste-mod1.mp4" type="video/mp4">
+    </video>
+<p> O video é mais complexo que o audio, tem mais comandos e mais coisas para se preocupar, mas é a mesma coisa, tem a tag video, dentro dela tem as tags source, cada uma com um formato diferente, e o navegador escolhe o formato que ele suporta. A tag video tem outros comandos alem do controls, como autoplay; preload (que é para definir se deve pré carrgar, esperar o usuário carregar ou não carregar); loop; poster (que é para definir uma imagem de capa para o video); e o muted (que é para deixar o video sem som).</p>
+    <h2> Tem e é mais adequado adicionar video externo.</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=AUXSy9SVKmiwLxBW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p> Para adicionar um video externo, é só usar a tag iframe, dentro dela tem o src do video, e o width e height para definir o tamanho do video. O video externo mais comum é o do youtube, mas tem outros sites de hospedagem de video que também permitem a incorporação de videos, como o vimeo.</p>
+
+</body>
+</html>

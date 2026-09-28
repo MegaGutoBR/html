@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazendo hover</title>
+    <style>
+body {
+            background-color: #4b67e48f;
+        }
+
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 50px 0px 200px 0px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 16px;
+            text-align: center;
+            padding: 0px 20px 0px 20px;
+        }
+
+        p#citação {
+            margin-top: 150px;
+            text-align: left;
+            text-indent: 50px;
+        }
+
+        div {
+            background-color: #4b67e415;
+            margin-left: 75px;
+            transition: 0.5s;
+            height: 0px;
+            display: inline-block;
+            position: relative;
+        }
+        
+        div:hover {
+            color: red;
+            margin-left: 75px;
+        }
+
+        div > p {
+            opacity: 0;
+            max-height: 0px;
+            overflow: hidden;
+            transition: opacity 0.5s ease, max-height 0.5s ease;
+            position: absolute;
+            top: 32px;
+            left: 100px;
+            white-space: nowrap;
+        
+        }
+
+        div:hover > p {
+            display: block;
+            opacity: 1;
+            max-height: 200px;
+        }
+
+
+    </style>
+   
+</head>
+<body>
+    <main>
+        <h1>Fazendo hover</h1>
+        <h2>PASSSANDO O MOUSE SERÁ POSSIVEL ADQUIRIR COMERCIMENTO</h2>
+        <p id="citação">Já dizia Horácio Empala: </p>
+        <div><br>
+            <i>Quem tem cu...</i>
+            <p><i>...bate até que fura.</i></p>
+        </div>
+    </main>
+</body>
+</html>

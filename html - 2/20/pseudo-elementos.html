@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+         # ID
+         . CLASSE
+         : PSEUDO-CLASSE
+         :: PSEUDO-ELEMENTO
+         > FILHO DIRETO (CHILDREN)
+        */
+
+        body {
+            background-color: #4b67e48f;
+            font-family: sans-serif;
+        }
+
+        main {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #740000;
+            text-decoration: underline;
+        }
+        
+        a:active {
+            color: #004109;
+            text-decoration: underline;
+        }
+
+        a::after /* Pela lógica, antes é só colocar "before" */ {
+            content: " (clique aqui)";
+            font-size: 0.8em;
+            color: #4e4e4e;
+        }
+
+        /* POSSO USAR ISSO COM TAGS, CLASSES E ID's */
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>LINKS ALEATORIOS</h1>
+        <ul>
+            <li><a href="https://paint.toys/sand/" target="_blank">Paint Toys</a></li>
+            <li><a href="https://thatsthefinger.com/" target="_blank">That's the Finger</a></li>
+            <li><a href="https://jacksonpollock.org/" target="_blank">Jackson Pollock</a></li>
+        </ul>
+    </main>
+</body>
+</html>

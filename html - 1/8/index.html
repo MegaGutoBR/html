@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="patricio.ico" type="image/png">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Lista ordenada</h2>
+    <p>Para criar uma lista ordenada, use a tag &lt;ol&gt; para envolver a lista e a tag &lt;li&gt; para cada item da lista. A lista ordenada é numerada automaticamente.</p>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <p>Porém, se você quiser personalizar a numeração, pode usar o atributo "type" na tag &lt;ol&gt;.</p>
+    <ol type="1"> 
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+    
+    <ol type="A">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <ol type="a">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <ol type="I">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <ol type="i">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <p>E pode começar em um número específico usando o atributo "start" na tag &lt;ol&gt;.</p>
+    <ol start="5">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <h2>Lista não ordenada</h2>
+    <p>Para criar uma lista não ordenada, use a tag &lt;ul&gt; para envolver a lista e a tag &lt;li&gt; para cada item da lista. A lista não ordenada é marcada com marcadores (bolinhas).</p>
+    <ul>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <p>Você pode personalizar os marcadores usando o atributo "type" na tag &lt;ul&gt;.</p>
+    <ul type="disc">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <ul type="square">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <h2>Lista de definição</h2>
+    <p>Para criar uma lista de definição, use a tag &lt;dl&gt; para envolver a lista, a tag &lt;dt&gt; para cada termo e a tag &lt;dd&gt; para cada definição.</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>Uma linguagem de programação usada para criar interatividade em páginas web</dd>
+    </dl>
+
+    <h2>Listas aninhadas</h2>
+    <p>Você pode criar listas aninhadas, ou seja, listas dentro de outras listas. Para isso, basta colocar uma lista dentro de um item de outra lista.</p>
+    <ol>
+        <li>Motivos para minha mulher ser bonita
+            <ul>
+                <li>Deusa</li>
+                <li>Gostosa</li>
+                <li>Maravilhosa</li>
+                <li>Peituda</li>
+            </ul>
+        </li>
+        <li>
+            <ol>mais motivos para minha mulher ser bonita
+                <li>única bonita</li>
+                <li>0 concorrência</li>
+                <li>Insuperável</li>
+                <li>Peituda</li>
+            </ol>
+        </li>
+        <p>Ainda poderia misturar listas ordenadas e não ordenadas e dar continuidade aos pontos, eu poderia dar sequência a duas &lt;ol&gt; e &lt;ul&gt; e iniciar a segunda com "start " de onde parou (isso vale mais para a lista ordenada, já que a não ordenada não tem numeração).</p>
+
+    
+</body>
+</html>
